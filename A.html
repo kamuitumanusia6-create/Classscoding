@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF‑8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koleksi Buku Kelas X‑8 Tahfidz</title>
+<style>
+*{box-sizing:border-box;font-family:Arial,sans-serif;margin:0;padding:0;}
+body{background:#f8f5f0;color:#222;line-height:1.7;margin:0;}
+header{width:100%;background:#6b4f4f;color:white;padding:20px;text-align:center;}
+.menu-atas{
+  width:100%;
+  background:#8c6d6d;
+  padding:16px;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:12px;
+}
+.menu-atas a{
+  color:white;
+  text-decoration:none;
+  padding:9px 14px;
+  background:#a88484;
+  border-radius:6px;
+  cursor:pointer;
+}
+.menu-atas a:hover{background:#c9a8a8;}
+.konten{width:100%;padding:15px 8px;min-height:450px;}
+.box{background:#fff;padding:20px;margin-bottom:16px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.1);}
+.halaman{display:none;}
+.halaman.aktif{display:block;}
+footer{width:100%;background:#6b4f4f;color:white;text-align:center;padding:16px;margin-top:20px;}
+img{max-width:100%;border-radius:8px;}
+.tombol‑pdf{
+  display:inline‑block;
+  margin‑top:12px;
+  padding:10px 16px;
+  background:#2b5797;
+  color:white;
+  text‑decoration:none;
+  border‑radius:8px;
+}
+.tombol‑pdf:hover{background:#1e4270;}
+</style>
+</head>
+<body>
+<header>
+  <h1>📚 KOLEKSI BUKU KELAS X‑8 TAHFIDZ</h1>
+  <p>MA Negeri 4 Ciamis | Daftar Buku & Isi Materi</p>
+</header>
+
+<div class="menu-atas">
+  <a onclick="tampil('beranda')">🏠 Beranda</a>
+  <a onclick="tampil('buku1')">AL QUR'AN HADIST</a>
+  <a onclick="tampil('buku2')">AKIDAH AKHLAK</a>
+  <a onclick="tampil('buku3')">FIQIH</a>
+  <a onclick="tampil('buku4')">SKI</a>
+  <a onclick="tampil('buku5')">BAHASA INDONESIA</a>
+  <a onclick="tampil('buku6')">BAHASA INGGRIS</a>
+  <a onclick="tampil('buku7')">BAHASA ARAB</a>
+  <a onclick="tampil('buku8')">EKONOMI</a>
+  <a onclick="tampil('buku9')">BIOLOGI</a>
+  <a onclick="tampil('buku10')">SEJARAH</a>
+  <a onclick="tampil('buku11')">FISIKA</a>
+</div>
+
+<div class="konten">
+  <div id="beranda" class="halaman aktif">
+    <div class="box">
+      <h2>Selamat Datang di Perpustakaan Kelas X‑8 Tahfidz</h2>
+      <p>Pilih menu di atas untuk membuka ringkasan materi setiap mata pelajaran.</p>
+      <img src="Foto–kelas1.jpeg">
+    </div>
+  </div>
+
+  <div id="buku1" class="halaman">
+    <div class="box">
+      <h2>Al‑Qur'an Hadist</h2>
+      <p>Al‑Qur'an adalah firman Allah SWT yang diturunkan kepada Nabi Muhammad SAW melalui malaikat Jibril. Hadist adalah perkataan, perbuatan, dan ketetapan Nabi yang menjadi pedoman hidup umat Islam.</p>
+      <a href="Alquran‑Hadist.pdf" target="_blank" class="tombol‑pdf">📄 Buka File PDF Materi Lengkap</a>
+    </div>
+  </div>
+
+  <div id="buku2" class="halaman">
+    <div class="box">
+      <h2>Akidah Akhlak</h2>
+      <p>Akidah adalah keyakinan utama umat Islam, yaitu beriman kepada Allah, malaikat, kitab‑kitab Allah, rasul‑rasul Allah, hari kiamat, dan qadar. Akhlak adalah budi pekerti yang baik seperti jujur, sopan, dan menghargai orang lain.</p>
+    </div>
+  </div>
+
+  <div id="buku3" class="halaman">
+    <div class="box">
+      <h2>Fiqih</h2>
+      <p>Fiqih mempelajari aturan ibadah dan muamalat, misalnya tata cara wudhu, mandi wajib, shalat, puasa Ramadhan, zakat, dan cara berinteraksi dengan sesama manusia.</p>
+    </div>
+  </div>
+
+  <div id="buku4" class="halaman">
+    <div class="box">
+      <h2>SKI (Sejarah Kebudayaan Islam)</h2>
+      <p>Mempelajari perjalanan dakwah Nabi Muhammad SAW mulai dari periode Makkah sampai Madinah, serta perkembangan kebudayaan Islam di masa‑masa selanjutnya.</p>
+    </div>
+  </div>
+
+  <div id="buku5" class="halaman">
+    <div class="box">
+      <h2>Bahasa Indonesia</h2>
+      <p>Mempelajari cara berbicara dan menulis yang baik, membuat pidato, anekdot, dan analisis teks untuk berkomunikasi dengan benar dan sopan.</p>
+    </div>
+  </div>
+
+  <div id="buku6" class="halaman">
+    <div class="box">
+      <h2>Bahasa Inggris</h2>
+      <p>Bahasa Inggris adalah bahasa internasional. Kita mempelajari kosakata, tata bahasa, dan cara berbicara untuk berkomunikasi dengan orang dari luar negeri.</p>
+    </div>
+  </div>
+
+  <div id="buku7" class="halaman">
+    <div class="box">
+      <h2>Bahasa Arab</h2>
+      <p>Mempelajari tata bahasa Arab seperti isim, fi'il, huruf jar, dan aturan tajwid untuk memudahkan membaca Al‑Qur'an dengan benar dan lancar.</p>
+    </div>
+  </div>
+
+  <div id="buku8" class="halaman">
+    <div class="box">
+      <h2>Ekonomi</h2>
+      <p>Ekonomi mempelajari cara manusia memenuhi kebutuhan hidup, mulai dari produksi barang, distribusi, sampai konsumsi sehari‑hari.</p>
+    </div>
+  </div>
+
+  <div id="buku9" class="halaman">
+    <div class="box">
+      <h2>Biologi</h2>
+      <p>Biologi adalah ilmu yang mempelajari makhluk hidup, misalnya tubuh manusia, hewan, tumbuhan, dan hubungan makhluk hidup dengan lingkungannya.</p>
+    </div>
+  </div>
+
+  <div id="buku10" class="halaman">
+    <div class="box">
+      <h2>Sejarah</h2>
+      <p>Sejarah mempelajari peristiwa‑peristiwa masa lalu, perjuangan bangsa Indonesia, dan perkembangan dunia dari zaman dahulu sampai sekarang.</p>
+    </div>
+  </div>
+
+  <div id="buku11" class="halaman">
+    <div class="box">
+      <h2>Fisika</h2>
+      <p>Fisika mempelajari gejala alam seperti gerak benda, gaya, energi, cahaya, dan bunyi yang ada di sekitar kita.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 Kelas X‑8 Tahfidz MA Negeri 4 Ciamis</p>
+</footer>
+
+<script>
+function tampil(idHalaman) {
+  let semuaHalaman = document.querySelectorAll(".halaman");
+  semuaHalaman.forEach(item => item.classList.remove("aktif"));
+  document.getElementById(idHalaman).classList.add("aktif");
+}
+</script>
+
+</body>
+</html>
